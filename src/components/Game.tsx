@@ -22,7 +22,7 @@ function Game(): React.JSX.Element {
     setCurrentMove(moveToJump);
   }
 
-  const renderMoves = movesHistory.map((squares, move) => {
+  const renderMoves = movesHistory.map((_squares, move) => {
     const description = move > 0
       ? `${move}º move`
       : `Game start`;
