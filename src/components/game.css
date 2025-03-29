@@ -1,0 +1,17 @@
+.game {
+  display: flex;
+}
+
+.history-item {
+  list-style: none;
+}
+
+.game-info {
+  margin-left: 40px;
+}
+
+.history-list {
+  background-color: var(--background-color);
+  border-radius: 12px;
+  padding: 0;
+}
